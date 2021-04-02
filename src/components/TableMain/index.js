@@ -4,7 +4,7 @@ import Table from 'react-bootstrap/Table';
 
 function TableMain() {
   return (
-    <div>
+    <div className ="FullTable">
       <Table responsive>
         <thead>
           <tr>
