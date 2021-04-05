@@ -1,8 +1,5 @@
 import React, { PureComponent } from 'react';
 import './style.css';
-import InputGroup from 'react-bootstrap/InputGroup';
-import Button from 'react-bootstrap/Button';
-import FormControl from 'react-bootstrap/FormControl';
 import API from '../../utils/API';
 
 class ApiSearchHandler extends PureComponent {

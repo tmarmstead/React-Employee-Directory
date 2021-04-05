@@ -10,29 +10,34 @@ class TableMain extends PureComponent {
       <Table striped bordered hover>
         <thead>
           <tr>
-            <th>#</th>
-            <th></th>
-            <th>Last Name</th>
-            <th>Username</th>
+            <th>Image</th>
+            <th>Full Name</th>
+            <th>Phone Number</th>
+            <th>Email</th>
+            <th>DOB</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>1</td>
-            <td>Mark</td>
-            <td>Otto</td>
+            <td>Image goes here</td>
+            <td>Mark Smith</td>
+            <td>555-555</td>
             <td>@mdo</td>
+            <td>DOB</td>
           </tr>
           <tr>
             <td>2</td>
-            <td>Jacob</td>
-            <td>Thornton</td>
+            <td>Jacob Smith</td>
+            <td>555-555</td>
             <td>@fat</td>
+            <td>DOB</td>
           </tr>
           <tr>
             <td>3</td>
-            <td colSpan="2">Larry the Bird</td>
+            <td>Larry Smith</td>
+            <td>555-555</td>
             <td>@twitter</td>
+            <td>DOB</td>
           </tr>
         </tbody>
       </Table>
