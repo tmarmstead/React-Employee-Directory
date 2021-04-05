@@ -6,9 +6,9 @@ import TableMain from './components/TableMain';
 function App() {
   return (
     <div className="App">
-    <Header />
-    <Search />
-    <TableMain />
+      <Header />
+      <Search />
+      <TableMain />
     </div>
   );
 }

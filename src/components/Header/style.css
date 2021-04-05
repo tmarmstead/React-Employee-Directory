@@ -2,11 +2,14 @@
     margin-top: 30px;
     margin-bottom: 20px;
     padding: 20px 5px 5px 5px;
-    background-color: #117864 ;
    
 }
 
 h1, p {
     font-family: Helvetica;
-    color: #EBF5FB;
+    color: #117864 ;
+}
+
+.jumbotronDiv {
+    background-color: coral;
 }

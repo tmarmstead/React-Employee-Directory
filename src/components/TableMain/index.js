@@ -1,43 +1,50 @@
-import React from 'react';
+import { React, PureComponent } from 'react';
 import './style.css';
 import Table from 'react-bootstrap/Table';
+// import { render } from '@testing-library/react';
+import ApiSearchHandler from "../Search/index"
 
-function TableMain() {
-  return (
-    <div className ="FullTable">
-      <Table responsive>
+class TableMain extends PureComponent {
+  render() {
+    return (
+      <Table striped bordered hover>
         <thead>
           <tr>
             <th>#</th>
-            {Array.from({ length: 5 }).map((_, index) => (
-              <th key={index}>Table heading</th>
-            ))}
+            <th></th>
+            <th>Last Name</th>
+            <th>Username</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td>1</td>
-            {Array.from({ length: 5 }).map((_, index) => (
-              <td key={index}>Table cell {index}</td>
-            ))}
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
           </tr>
           <tr>
             <td>2</td>
-            {Array.from({ length: 5 }).map((_, index) => (
-              <td key={index}>Table cell {index}</td>
-            ))}
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
           </tr>
           <tr>
             <td>3</td>
-            {Array.from({ length: 5 }).map((_, index) => (
-              <td key={index}>Table cell {index}</td>
-            ))}
+            <td colSpan="2">Larry the Bird</td>
+            <td>@twitter</td>
           </tr>
         </tbody>
       </Table>
-    </div>
-
-  )
+    )
+  }
 }
 
 export default TableMain;
+
+// Accessing API call Resuls:
+    // Image: res.picture.medium
+    // Name: res.name.first + results.name.last
+    // Phone: res.phone.cell
+    // email: res.email
+    // DOB: res.dob.date
