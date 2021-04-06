@@ -9,6 +9,7 @@
   - [License](#License)
   - [Contribution](#Contribution)
   - [Questions](#Questions)
+  - [URLs](#URLs)
   
   ## Description: 
   This app allows users to view and entire employee directory for quick access to employee information
@@ -39,3 +40,8 @@
   https://github.com/tmarmstead 
 
   tina.armstead@gmail.com
+
+ ## URLs: 
+ GitHub Repository: https://github.com/tmarmstead/React-Employee-Directory
+
+ Deployed Application: https://react-employee-directory-ta.herokuapp.com/

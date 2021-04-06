@@ -1,5 +1,5 @@
 import axios from 'axios';
-
+import pic from ""
 
 
 export default {
