@@ -12,8 +12,9 @@
   
   ## Description: 
   This app allows users to view and entire employee directory for quick access to employee information
+  ![image info](![Screenshot (174)](https://user-images.githubusercontent.com/71151032/113779191-54e23280-96fb-11eb-8665-bb93b4b07306.png)
+)
 
-  [Link to video walkthrough](https://drive.google.com/file/d/1xH-42FhAGogtRVaiMP0IeE_bHc9r7bKA/view)
 
   ## Installation: 
   To install, copy the code form the repo and use "git clone <paste copied information here>" to add the app to a directory
