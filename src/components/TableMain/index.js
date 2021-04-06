@@ -7,14 +7,14 @@ import Table from 'react-bootstrap/Table';
 class TableMain extends PureComponent {
   render() {
     return (
-      <Table striped bordered hover>
+      <Table striped bordered hover responsive>
         <thead className="head">
           <tr>
             <th>Image</th>
             <th>Full Name</th>
             <th>Phone Number</th>
             <th>Email</th>
-            <th>DOB</th>
+            <th>Location</th>
           </tr>
         </thead>
         <tbody className="head">
@@ -25,7 +25,7 @@ class TableMain extends PureComponent {
                 <td>{props.name.first} {props.name.last}</td>
                 <td>{props.phone}</td>
                 <td>{props.email}</td>
-                <td>{props.dob.date}</td>
+                <td>{props.location.city}, {props.location.state}</td>
               </tr>
             )
           })}
