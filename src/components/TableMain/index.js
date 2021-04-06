@@ -1,8 +1,8 @@
-import { React, PureComponent } from 'react';
+import React, { PureComponent } from 'react';
 import './style.css';
 import Table from 'react-bootstrap/Table';
 // import { render } from '@testing-library/react';
-import ApiSearchHandler from "../Search/index"
+// import ApiSearchHandler from "../Search/index";
 
 class TableMain extends PureComponent {
   render() {
@@ -18,29 +18,12 @@ class TableMain extends PureComponent {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>Image goes here</td>
-            <td>Mark Smith</td>
-            <td>555-555</td>
-            <td>@mdo</td>
-            <td>DOB</td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>Jacob Smith</td>
-            <td>555-555</td>
-            <td>@fat</td>
-            <td>DOB</td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>Larry Smith</td>
-            <td>555-555</td>
-            <td>@twitter</td>
-            <td>DOB</td>
-          </tr>
+          {this.filteredResults
+            .map}
+
+
         </tbody>
-      </Table>
+      </Table >
     )
   }
 }
