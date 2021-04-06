@@ -1,4 +1,4 @@
-.FullTable {
+.head, th, tr, td {
     font-family: helvetica;
-    
+   text-align: center;
 }

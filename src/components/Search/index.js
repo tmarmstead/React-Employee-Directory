@@ -34,18 +34,12 @@ class ApiSearchHandler extends PureComponent {
     this.setState({
       filteredResults: filteredUsers
     })
-    // console.log(filteredUsers, this.state.filteredResults)
+    console.log("filtered users :", filteredUsers, "this.state.filteredusres :", this.state.filteredResults)
   };
 
-  // handleSubmit = e => {
-  //   e.preventDefault();
-  //   this.searchEmployees(this.state.search)
-  //   console.log("clicked button")
-  //   console.log(this.state)
-  // };
 
   render() {
-    console.log(this.state.results);
+    console.log("this.state.results :", this.state.results);
     return (
       <form>
         <div className="form-group">
@@ -55,7 +49,7 @@ class ApiSearchHandler extends PureComponent {
             value={this.state.value}
             name="findUsers"
             type="text"
-            className="form-control"
+            className="form-control input"
             placeholder="What are you looking for?"
             id="search"
           />
@@ -63,6 +57,7 @@ class ApiSearchHandler extends PureComponent {
           <button onClick={this.handleSubmit} className="btn btn-primary">
             Search
         </button>
+          <TableMain employees={this.state.filteredResults} />
         </div>
       </form>
 
@@ -73,4 +68,4 @@ class ApiSearchHandler extends PureComponent {
 }
 
 
-export default { ApiSearchHandler };
+export default ApiSearchHandler;
