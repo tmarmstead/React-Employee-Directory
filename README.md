@@ -12,7 +12,9 @@
   
   ## Description: 
   This app allows users to view and entire employee directory for quick access to employee information
- ![Screenshot (175)](https://user-images.githubusercontent.com/71151032/113779359-98d53780-96fb-11eb-9c7d-00c7f7794458.png
+
+ 
+ ![Screenshot (175)](https://user-images.githubusercontent.com/71151032/113779359-98d53780-96fb-11eb-9c7d-00c7f7794458.png)
 
 
   ## Installation: 
