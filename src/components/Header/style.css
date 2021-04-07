@@ -1,8 +1,14 @@
-h1, p {
+strong, p {
     font-family: Helvetica;
-    color: #1976D2;
+    color: black;
+    font-weight: bolder;
 }
 
 p {
     margin-top: 20px;
+    font-size: larger;
+}
+
+.container {
+    border: 8px solid black;
 }

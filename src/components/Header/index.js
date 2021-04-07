@@ -7,8 +7,10 @@ class Header extends PureComponent {
     render() {
         return (
 
-            <Jumbotron fluid>
-                <Container>
+            <Jumbotron fluid style={{
+                backgroundImage: `url("https://i.picsum.photos/id/534/4000/3000.jpg?hmac=lZH_v84ot8WWUIgqwrJvFKqtockRBoqVnStUqqaJFug")`, backgroundSize: 'cover'
+            }}>
+                <Container style={{ backgroundColor: 'white' }} className="container">
                     <h1><strong>Employee Directory</strong></h1>
                     <p>
                         Use the Search Bar to Filter Through Employees
